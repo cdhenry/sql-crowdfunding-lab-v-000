@@ -8,11 +8,13 @@ CREATE TABLE projects(
 );
 
 CREATE TABLE users(
+  id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
 );
 
 CREATE TABLE pledges(
+  id INTEGER PRIMARY KEY,
   ammount REAL,
   project_id INTEGER,
   user_id INTEGER
