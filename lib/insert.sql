@@ -1,23 +1,23 @@
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Wireless Gadget", "gadgets", 5000.00, 01-12-2018, 04-25-2018);
+    VALUES ("Wireless Gadget", "gadgets", 50000.00, 01-12-2018, 04-25-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Smart Umbrella", "gadgets", 5000.00, 03-01-2018, 04-22-2018);
+    VALUES ("Smart Umbrella", "gadgets", 3000.00, 03-01-2018, 04-22-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Nicer Shoes", "clothes", 5000.00, 02-04-2018, 03-28-2018);
+    VALUES ("Nicer Shoes", "clothes", 13000.00, 02-04-2018, 03-28-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Longer Book", "books", 5000.00, 02-28-2018, 07-06-2018);
+    VALUES ("Longer Book", "books", 2000.00, 02-28-2018, 07-06-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Cure-All Pill", "object", 5000.00, 05-02-2018, 10-17-2018);
+    VALUES ("Cure-All Pill", "object", 65000.00, 05-02-2018, 10-17-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Nicer Hat", "clothes", 5000.00, 01-01-2018, 09-13-2018);
+    VALUES ("Nicer Hat", "clothes", 10000.00, 01-01-2018, 09-13-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Stress Reliever", "gadgets", 5000.00, 01-05-2018, 11-11-2018);
+    VALUES ("Stress Reliever", "gadgets", 1000.00, 01-05-2018, 11-11-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Mystery Box", "object", 5000.00, 02-02-2018, 12-01-2018);
+    VALUES ("Mystery Box", "object", 8000.00, 02-02-2018, 12-01-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Priceless Object", "object", 5000.00, 03-17-2018, 05-08-2018);
+    VALUES ("Priceless Object", "object", 20000.00, 03-17-2018, 05-08-2018);
 INSERT INTO projects (title, category, funding_goal, start_date, end_date)
-    VALUES ("Cooler Shades", "clothes", 5000.00, 03-21-2018, 04-21-2018);
+    VALUES ("Cooler Shades", "clothes", 65000.00, 03-21-2018, 04-21-2018);
 
 INSERT INTO users (name, age)
     VALUES ("Dave", 25);
@@ -55,7 +55,7 @@ INSERT INTO users (name, age)
     VALUES ("Billy",  31);
 INSERT INTO users (name, age)
     VALUES ("Dimitry",  60);
-    
+
 INSERT INTO pledges (ammount, user_id, project_id)
     VALUES (25.00, 1, 1);
 INSERT INTO pledges (ammount, user_id, project_id)
